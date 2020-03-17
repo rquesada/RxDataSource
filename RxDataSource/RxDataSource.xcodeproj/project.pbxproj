@@ -17,6 +17,8 @@
 		76387511242145E70070AA3B /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7638750F242145E70070AA3B /* SimpleTableViewCell.swift */; };
 		76387512242145E70070AA3B /* SimpleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76387510242145E70070AA3B /* SimpleTableViewCell.xib */; };
 		763875162421466F0070AA3B /* SimpleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763875152421466F0070AA3B /* SimpleViewModel.swift */; };
+		76DA3B1B24216A1C001B1E5C /* IntermediateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DA3B1A24216A1C001B1E5C /* IntermediateDataSource.swift */; };
+		76DA3B1D24216F18001B1E5C /* IntermediateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DA3B1C24216F18001B1E5C /* IntermediateViewModel.swift */; };
 		86042298C852046550982211 /* Pods_RxDataSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E53E7EF025AEBA9DC7CD78B /* Pods_RxDataSource.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		7638750F242145E70070AA3B /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 		76387510242145E70070AA3B /* SimpleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewCell.xib; sourceTree = "<group>"; };
 		763875152421466F0070AA3B /* SimpleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewModel.swift; sourceTree = "<group>"; };
+		76DA3B1A24216A1C001B1E5C /* IntermediateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateDataSource.swift; sourceTree = "<group>"; };
+		76DA3B1C24216F18001B1E5C /* IntermediateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateViewModel.swift; sourceTree = "<group>"; };
 		CB08D39B114C44AAE9C81300 /* Pods-RxDataSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDataSource.release.xcconfig"; path = "Target Support Files/Pods-RxDataSource/Pods-RxDataSource.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,10 +92,10 @@
 		763874F724213EB30070AA3B /* RxDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				76DA3B17242169DF001B1E5C /* Intermedia */,
 				7638750E242145C10070AA3B /* Simple */,
 				763874F824213EB30070AA3B /* AppDelegate.swift */,
 				763874FA24213EB30070AA3B /* SceneDelegate.swift */,
-				763874FE24213EB30070AA3B /* SecondViewController.swift */,
 				7638750024213EB30070AA3B /* Main.storyboard */,
 				7638750324213EB40070AA3B /* Assets.xcassets */,
 				7638750524213EB40070AA3B /* LaunchScreen.storyboard */,
@@ -123,6 +127,32 @@
 				763874FC24213EB30070AA3B /* FirstViewController.swift */,
 				7638750F242145E70070AA3B /* SimpleTableViewCell.swift */,
 				76387510242145E70070AA3B /* SimpleTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76DA3B17242169DF001B1E5C /* Intermedia */ = {
+			isa = PBXGroup;
+			children = (
+				76DA3B19242169FD001B1E5C /* View */,
+				76DA3B18242169F2001B1E5C /* ViewModel */,
+			);
+			path = Intermedia;
+			sourceTree = "<group>";
+		};
+		76DA3B18242169F2001B1E5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				76DA3B1A24216A1C001B1E5C /* IntermediateDataSource.swift */,
+				76DA3B1C24216F18001B1E5C /* IntermediateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		76DA3B19242169FD001B1E5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				763874FE24213EB30070AA3B /* SecondViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,6 +277,8 @@
 				763874FD24213EB30070AA3B /* FirstViewController.swift in Sources */,
 				763875162421466F0070AA3B /* SimpleViewModel.swift in Sources */,
 				763874F924213EB30070AA3B /* AppDelegate.swift in Sources */,
+				76DA3B1B24216A1C001B1E5C /* IntermediateDataSource.swift in Sources */,
+				76DA3B1D24216F18001B1E5C /* IntermediateViewModel.swift in Sources */,
 				76387511242145E70070AA3B /* SimpleTableViewCell.swift in Sources */,
 				763874FB24213EB30070AA3B /* SceneDelegate.swift in Sources */,
 			);
